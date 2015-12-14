@@ -6,7 +6,7 @@
  * Результат сохраняется в виде HTML файла: report_dd.mm.yyyy.html
  * Результат отсортрован по количеству тегов на страницах.
  * Author Vazha.B.
- * Version 1.0
+ * Version 1.0.0
  */
 
 namespace vaja;
