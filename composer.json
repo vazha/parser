@@ -1,0 +1,29 @@
+{
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/vazha/mylibs"
+        },
+
+        {
+            "type":"package",
+            "package":{
+                "name":"vazha/mylibs",
+                "version":"1.0.0",
+                "source":{
+                    "type":"git",
+                    "url":"http://github.com/vazha/mylibs",
+                    "reference":"master"
+                },
+                "autoload":{
+                    "classmap":["timer.php"]
+                }
+            }
+        }
+    ],
+
+    "require":{
+        "php":">=5.3.0",
+        "vazha/mylibs":"dev-master"
+    }
+}
